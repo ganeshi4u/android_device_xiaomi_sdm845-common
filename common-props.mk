@@ -39,7 +39,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     audio.offload.video=true \
     media.settings.xml=/system/etc/media_profiles_vendor.xml \
-    ro.config.media_vol_steps=25
+    ro.config.media_vol_steps=25 \
+    ro.config.vc_call_vol_steps=7
 
 # Netflix custom property
 PRODUCT_PROPERTY_OVERRIDES += \
