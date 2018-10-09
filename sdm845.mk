@@ -22,6 +22,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     fs_config_files
 
+PRODUCT_PACKAGE_OVERLAYS += vendor/arrow/overlay/CarrierConfig
+
 # Ambient Display
 #PRODUCT_PACKAGES += \
 #    XiaomiDoze
