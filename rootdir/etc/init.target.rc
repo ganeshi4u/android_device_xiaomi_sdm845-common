@@ -3,6 +3,8 @@ on early-init
 
 on init
     mount none /system/etc/audio_platform_info.xml /vendor/etc/audio_platform_info.xml bind
+    mount none /system/lib/hw/lights.beryllium.so /vendor/lib/hw/lights.sdm845.so bind
+    mount none /system/lib64/hw/lights.beryllium.so /vendor/lib64/hw/lights.sdm845.so bind
 
 on boot
     chmod 0777 /data/misc/wifi

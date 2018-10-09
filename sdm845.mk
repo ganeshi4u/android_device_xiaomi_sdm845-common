@@ -53,8 +53,8 @@ PRODUCT_PACKAGES += \
     ims-ext-common
 
 # Lights
-PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.xiaomi_sdm845
+#PRODUCT_PACKAGES += \
+#    android.hardware.light@2.0-service.xiaomi_sdm845
 
 # Media
 PRODUCT_COPY_FILES += \
