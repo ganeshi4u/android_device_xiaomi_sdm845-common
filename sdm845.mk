@@ -36,8 +36,7 @@ PRODUCT_COPY_FILES += \
 
 # Common init scripts
 PRODUCT_PACKAGES += \
-    init.qcom.rc \
-    init.target.rc
+    init.qcom.rc
 
 # Display
 PRODUCT_PACKAGES += \
