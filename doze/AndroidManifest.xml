@@ -13,7 +13,7 @@
         android:targetSdkVersion="21"/>
 
     <application
-        android:label="ZukDoze"
+        android:label="XiaomiDoze"
         android:persistent="true">
 
         <receiver android:name="com.du.settings.doze.BootCompletedReceiver">
@@ -24,7 +24,7 @@
         </receiver>
 
         <service android:name="com.du.settings.doze.DozeService"
-                 android:permission="ZukDozeService">
+                 android:permission="XiaomiDozeService">
         </service>
 
         <activity
