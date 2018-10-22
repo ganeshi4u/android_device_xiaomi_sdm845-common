@@ -23,8 +23,8 @@ PRODUCT_PACKAGES += \
     fs_config_files
 
 # Ambient Display
-#PRODUCT_PACKAGES += \
-#    XiaomiDoze
+PRODUCT_PACKAGES += \
+    XiaomiDoze
 
 # Audio
 PRODUCT_PACKAGES += \
